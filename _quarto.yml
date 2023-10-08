@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Desk Buddy"
+  navbar:
+    left:
+      - href: index.qmd
+        text: How To
+      - href: about.qmd
+        
+
+format:
+  html:
+    theme: 
+      light: litera
+      dark: slate
+    css: styles.css
+    toc: true
+  pdf:
+    documentclass: report
+  docx: default
+  pptx: default
+
+
